@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from database import connect_db, disconnect_db
-from routers import power
+from app.database.database import connect_db, disconnect_db
+from app.routers import power
 
 app = FastAPI(title="API de Consulta de Sensores")
 

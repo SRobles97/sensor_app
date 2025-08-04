@@ -1,6 +1,6 @@
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends
 from datetime import datetime
-from database import get_pool
+from app.database.database import get_pool
 import asyncpg
 
 router = APIRouter(prefix="/api/power", tags=["Consultas Power"])
