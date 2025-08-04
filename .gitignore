@@ -1,0 +1,34 @@
+# Entorno
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# DB local
+*.sqlite3
+*.db
+
+# Docker
+*.pid
+*.tar
+
+# Coverage / builds
+htmlcov/
+dist/
+build/
