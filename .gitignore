@@ -32,3 +32,8 @@ Thumbs.db
 htmlcov/
 dist/
 build/
+
+# Claude
+.claude/
+.claude-*
+CLAUDE.md

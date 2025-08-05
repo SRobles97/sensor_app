@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from app.database.database import connect_db, disconnect_db
-from app.routers import power
+from app.routers import power, discrete
 
 app = FastAPI(title="API de Consulta de Sensores")
 
 app.include_router(power.router)
+app.include_router(discrete.router)
 
 
 @app.on_event("startup")
