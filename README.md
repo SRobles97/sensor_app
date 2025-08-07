@@ -128,17 +128,19 @@ curl "http://localhost:8000/api/discrete/by-time-range/simple?device=sensor002&s
 {
   "device": "sensor001",
   "timestamp": "2024-01-15T10:30:00",
-  "i1": 12.5,
-  "i2": 11.8,
-  "i3": 13.2,
-  "v1": 230.1,
-  "v2": 229.8,
-  "v3": 231.0,
-  "p1": 2875.0,
-  "p2": 2706.4,
-  "p3": 3049.2,
+  "a1": 12.5,
+  "a2": 11.8,
+  "a3": 13.2,
+  "b1": 230.1,
+  "b2": 229.8,
+  "b3": 231.0,
+  "c1": 2875.0,
+  "c2": 2706.4,
+  "c3": 3049.2,
   "pt": 8630.6,
-  "frequency": 50.0
+  "t1": 50.0,
+  "t2": 50.0, 
+  "t3": 50.0:
 }
 ```
 
@@ -173,11 +175,3 @@ Para ejecutar en modo desarrollo con recarga automática:
 ```bash
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
-
-## Licencia
-
-[Especificar licencia del proyecto]
-
-## Contribuciones
-
-[Información sobre cómo contribuir al proyecto]
